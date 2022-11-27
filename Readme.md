@@ -8,3 +8,4 @@ To execute the code, A Kafka server needs to be up and running.
 6. UnComment "listener.security.protocol.map=PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL"
 7. Install confluent CLI https://docs.confluent.io/confluent-cli/current/install.html#install
 8. Run "confluent local services start"
+9. Access cluster at http://localhost:9021/
